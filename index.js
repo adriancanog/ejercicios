@@ -7,10 +7,10 @@ app.get('/', function(req, res) {
 });
 
 app.get('/ads', function(req, res){
-  res.send("Bienvenidos a ADS");
+  res.send("Bienvenidoss a ADS");
 })
 
- 
+  
 app.listen(3000, function() {
   console.log('Aplicación ejemplo, escuchando el puerto 3000!');
 });
